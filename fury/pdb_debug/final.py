@@ -64,7 +64,7 @@ current_model_number = 1
 table = vtk.vtkPeriodicTable()
 
 # parsing the mmCIF file for information about coordinates and atoms
-pdbx_file_name = '1crn.pdb'
+pdbx_file_name = '1pgb.pdb'
 pdbxfile = open(pdbx_file_name, 'r')
 pdbx_lines = pdbxfile.readlines()
 
