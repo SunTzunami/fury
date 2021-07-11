@@ -69,10 +69,10 @@ for line in pdbx_lines:
 
 n = len(Points)
 SecondaryStructures = np.ones(n)
-SecondaryStructuresBegin = np.empty(n, dtype=np.bool)
+SecondaryStructuresBegin = np.empty(n, dtype=bool)
 SecondaryStructuresBegin[:] = np.NaN
 
-SecondaryStructuresEnd = np.empty(n, dtype=np.bool)
+SecondaryStructuresEnd = np.empty(n, dtype=bool)
 SecondaryStructuresEnd[:] = np.NaN
 
 Residue = np.array(Residue, dtype='int')
