@@ -184,5 +184,5 @@ scene.add(actor)
 
 interactive = True
 if interactive:
-    window.show(scene, size=dims, title=pdb_code)
-window.record(scene, size=dims, out_path=pdb_code+'.png')
+    window.show(scene, size=dims, title=pdb_code[:4])
+window.record(scene, size=dims, out_path=pdb_code[:4]+'.png')
